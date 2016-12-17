@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "react": "^15.4.0",
     "react-dom": "^15.4.0",
-    "react": "^15.4.0"
+    "react-bootstrap": "^0.30.6"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
@@ -16,8 +17,8 @@
     "webpack-dev-server": "^1.16.2"
   },
   "scripts": {
-	"build": "webpack",
-	"start": "webpack-dev-server"
+    "build": "webpack",
+    "start": "webpack-dev-server --host 127.0.0.1 --port 4000"
   },
   "author": "",
   "license": "ISC"

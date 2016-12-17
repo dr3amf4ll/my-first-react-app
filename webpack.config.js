@@ -17,7 +17,7 @@ module.exports = {
 		]
 	},
 	output: {
-		filename: 'transformed.js',
+		filename: 'bundle.js',
 		path: __dirname + '/build'
 	},
 	plugins: [HTMLWebpackPluginConfig]

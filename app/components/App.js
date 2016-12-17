@@ -1,9 +1,14 @@
-var React = require('react');
+var React  = require('react');
+var Header = require('./Header');
 
-var Hello = React.createClass({
+var App = React.createClass({
   render: function () {
-    return <h1>Hello world!</h1>;
+    return (
+    	<div>
+    		<Header header="Header" subheader="Sub Header" />
+	    </div>
+	);
   }
 });
 
-module.exports = Hello;
+module.exports = App;
